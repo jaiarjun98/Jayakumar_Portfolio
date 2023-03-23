@@ -1,20 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-class Testimonials extends Component {
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            first: ''
-        }
-    }
-    render() {
-        return (
-            <div>
-                <div>Testimonials Component</div>
-            </div>
-        )
-    }
+const Testimonials = () => {
+    return (
+        <div>
+            My Testimonials Function component called
+        </div>
+    )
 }
 
 export default Testimonials

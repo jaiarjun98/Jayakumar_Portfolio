@@ -1,22 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Myprofile extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            name: '',
-            email: '',
-            phone: '',
-            address: ''
-        }
-    }
-    render() {
-        return (
-            <div>
-                <div>Myprofile</div>
-            </div>
-        )
-    }
+const Myprofile = () => {
+    return (
+        <div>
+            My profile Function component called
+        </div>
+    )
 }
 
 export default Myprofile

@@ -1,20 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Footer extends Component {
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            first: ''
-        }
-    }
-    render() {
-        return (
-            <div>
-                <div>Footer Component Called</div>
-            </div>
-        )
-    }
+const Footer = () => {
+    return (
+        <div>
+            Footer Function component called
+        </div>
+    )
 }
 
 export default Footer

@@ -1,22 +1,12 @@
-import React, { Component } from 'react';
-import Myprofile from './Myprofile';
-
-class Header extends Component {
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            first: ''
-        }
-    }
-    render() {
-        return (
-            <div>
-                Header called with Myprofile component
-                <Myprofile />
-            </div>
-        )
-    }
+import React from 'react';
+import Projects from './Projects'
+const Header = () => {
+    return (
+        <div>
+            My Header Function component called
+            <Projects></Projects>
+        </div>
+    )
 }
 
 export default Header
